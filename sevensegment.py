@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 
 import RPi.GPIO as GPIO
 import time
@@ -27,7 +27,6 @@ translation = {
     "9": (1, 1, 1, 1, 0, 1, 1, 0),
     "*": (1, 1, 1, 1, 0, 0, 0, 0),
     "C": (1, 1, 0, 0, 1, 0, 1, 0) 
-    
 }
 
 _segment0 = [1, 0, 0, 0, 0, 0, 0, 0]
